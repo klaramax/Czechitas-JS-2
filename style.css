@@ -1,0 +1,15 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+h1 {
+font-weight: 600;
+margin-top: 150px;
+}
+
+h2 {
+    margin-top: 150px;
+}
