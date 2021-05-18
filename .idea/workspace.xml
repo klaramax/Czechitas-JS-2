@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c36940-5eb0-474f-a4fb-4bcf2d445df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/renderer-process/components/carousel/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renderer-process/components/news-article/news-article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renderer-process/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renderer-process/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ukoly stare/shaker_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,6 +58,7 @@
       <workItem from="1620502380284" duration="4030000" />
       <workItem from="1620812135858" duration="38000" />
       <workItem from="1621083948323" duration="8421000" />
+      <workItem from="1621322177710" duration="622000" />
     </task>
     <servers />
   </component>
