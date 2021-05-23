@@ -1,22 +1,3 @@
-app-day {
-  display: flex;
-  width: calc(100% / 7 - 2rem);
-  aspect-ratio: 1/1;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 1rem;
-  cursor: pointer;
-  transition: 0.3s;
-  background-color: #90ee90;
-  color: #F7F7F7;
-  font-size: 2.5rem;
-  box-sizing: border-box;
-}
-app-day:hover {
-  box-shadow: 0 5px 10px rgba(35, 35, 35, 0.2);
-}
-
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -35,6 +16,10 @@ body {
   font-size: 1.6rem;
   padding: 0;
   margin: 0;
+}
+
+app-carousel {
+  display: flex;
 }
 
 .header-news {
@@ -84,6 +69,25 @@ body {
   overflow: hidden;
   line-height: 2rem;
   padding: 1rem;
+}
+
+app-day {
+  display: flex;
+  width: calc(100% / 7 - 2rem);
+  aspect-ratio: 1/1;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #90ee90;
+  color: #F7F7F7;
+  font-size: 2.5rem;
+  box-sizing: border-box;
+}
+app-day:hover {
+  box-shadow: 0 5px 10px rgba(35, 35, 35, 0.2);
 }
 
 .main-content {
