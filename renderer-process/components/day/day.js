@@ -11,25 +11,25 @@ export class Day extends HTMLElement {
     getDayName() {
         switch(this.date.getDay()) {
             case 0:
-                return 'nedele';
+                return 'neděle';
             case 1:
-                return 'pondeli';
+                return 'pondělí';
             case 2:
-                return 'utery';
+                return 'úterý';
             case 3:
-                return 'streda';
+                return 'středa';
             case 4:
-                return 'ctvrtek';
+                return 'čtvrtek';
             case 5:
-                return 'patek';
+                return 'pátek';
             case 6:
                 return 'sobota';
         }
     }
 
     handleClickEvent() {
-        alert('Dnes je ' + this.getDayName())
+        alert('Datum: ' + this.getDayName() + ' ' + this.date.toLocaleDateString('cz'));
     }
 }
 
-customElements.define('app-day', Day)
+customElements.define('app-day', Day);

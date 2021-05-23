@@ -1,11 +1,10 @@
 import {Carousel} from './components/carousel/carousel.js';
 import {Day} from './components/day/day.js';
 
-const mainContent = document.querySelector('.main-content');
-const daysOfMonth = 31;
-const dataPromise = fetch('http://localhost:3000/news.json');
 
-const carousel = new Carousel();
+const mainContent = document.querySelector('.main-content');
+const dataPromise = fetch('http://localhost:3000/news.json');
+const carousel = document.querySelector('app-carousel');
 let articles;
 
 dataPromise
@@ -27,9 +26,6 @@ carousel.buttonRight.addEventListener('click', () => {
     carousel.populateNewsCarousel(articles);
 });
 
-const testDate = new Date(2021, 4, 16);
-console.log(testDate);
-
 const currentDate = new Date();
 const maxDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
 
@@ -37,11 +33,6 @@ function createDayDivs() {
     for (let i = 1; i <= maxDate; i++) {
         const dayDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), i);
         mainContent.appendChild(new Day(dayDate));
-
-        // const day = document.createElement('div');
-        // day.classList.add('main-content__day');
-        // mainContent.appendChild(day);
-        // day.innerText = i;
     }
 }
 
