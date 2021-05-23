@@ -1,4 +1,5 @@
 import {Carousel} from './components/carousel/carousel.js';
+import {Day} from './components/day/day.js';
 
 const mainContent = document.querySelector('.main-content');
 const daysOfMonth = 31;
@@ -26,13 +27,28 @@ carousel.buttonRight.addEventListener('click', () => {
     carousel.populateNewsCarousel(articles);
 });
 
+const testDate = new Date(2021, 4, 16);
+console.log(testDate);
+
+const currentDate = new Date();
+const maxDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+
 function createDayDivs() {
-    for (let i = 1; i <= daysOfMonth; i++) {
-        const day = document.createElement('div');
-        day.classList.add('main-content__day');
-        mainContent.appendChild(day);
-        day.innerText = 'day ' + i;
+    for (let i = 1; i <= maxDate; i++) {
+        const dayDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), i);
+        mainContent.appendChild(new Day(dayDate));
+
+        // const day = document.createElement('div');
+        // day.classList.add('main-content__day');
+        // mainContent.appendChild(day);
+        // day.innerText = i;
     }
 }
+
+// const buttonOpenModal = document.getElementById('open-modal');
+// const modalContainer = document.querySelector('.modal-container');
+// buttonOpenModal.addEventListener('click', () => {
+//     modalContainer.hidden = false;
+// });
 
 createDayDivs();
