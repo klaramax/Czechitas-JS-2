@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c36940-5eb0-474f-a4fb-4bcf2d445df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/renderer-process/styles/base/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renderer-process/styles/base/base.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renderer-process/styles/base/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renderer-process/styles/carousel/carousel.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer-process/styles/modal/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer-process/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/components/day/day.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/components/day/day.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderer-process/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renderer-process/styles/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/styles/carousel/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renderer-process/styles/header/header.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renderer-process/styles/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/styles/carousel/carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/styles/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/styles/_colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderer-process/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderer-process/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderer-process/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/styles/index.scss" afterDir="false" />
@@ -30,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="homework-4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,14 +44,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Czechitas\JS2\!!!!!!!!git projekt\Czechitas-JS-2\renderer-process\styles" />
+      <recent name="C:\Czechitas\JS2\git projekt\Czechitas-JS-2\renderer-process\styles" />
+      <recent name="C:\Czechitas\JS2\git projekt\Czechitas-JS-2\renderer-process\components\modal" />
       <recent name="C:\Czechitas\JS2\git projekt\Czechitas-JS-2\renderer-process\styles\new-article" />
       <recent name="C:\Czechitas\JS2\czechitas-js-project\renderer-process" />
-      <recent name="C:\Czechitas\JS2\czechitas-js-project" />
-      <recent name="C:\Czechitas\JS2\czechitas-js-project\renderer-process\scss" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +76,9 @@
       <workItem from="1621083948323" duration="8421000" />
       <workItem from="1621322177710" duration="1075000" />
       <workItem from="1621528169782" duration="5942000" />
-      <workItem from="1621778798908" duration="9719000" />
+      <workItem from="1621778798908" duration="12035000" />
+      <workItem from="1622129961052" duration="7628000" />
+      <workItem from="1622734722664" duration="7188000" />
     </task>
     <servers />
   </component>

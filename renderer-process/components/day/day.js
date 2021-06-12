@@ -9,7 +9,7 @@ export class Day extends HTMLElement {
     }
 
     getDayName() {
-        switch(this.date.getDay()) {
+        switch (this.date.getDay()) {
             case 0:
                 return 'neděle';
             case 1:
@@ -27,8 +27,11 @@ export class Day extends HTMLElement {
         }
     }
 
+    // handleClickEvent() {
+    //     alert('Datum: ' + this.getDayName() + ' ' + this.date.toLocaleDateString('cz'));
+    // }
     handleClickEvent() {
-        alert('Datum: ' + this.getDayName() + ' ' + this.date.toLocaleDateString('cz'));
+        window.showModal();
     }
 }
 

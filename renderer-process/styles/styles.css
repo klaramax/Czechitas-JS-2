@@ -1,0 +1,24 @@
+#modal-form {
+  display: flex;
+  flex-direction: column;
+}
+#modal-form .row {
+  display: flex;
+  padding: 8px 0;
+  justify-content: space-between;
+  position: relative;
+}
+#modal-form .row::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #306F78;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
