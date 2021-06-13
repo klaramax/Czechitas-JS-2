@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c36940-5eb0-474f-a4fb-4bcf2d445df9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/components/carousel/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/components/carousel/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/components/day/day.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/components/day/day.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer-process/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-process/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rWxsXrEnCyPUloJ4EpVVPbYS8Z" />
@@ -35,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Czechitas\JS2\git projekt\Czechitas-JS-2\renderer-process\styles\new-article" />
       <recent name="C:\Czechitas\JS2\czechitas-js-project\renderer-process" />
       <recent name="C:\Czechitas\JS2\czechitas-js-project" />
       <recent name="C:\Czechitas\JS2\czechitas-js-project\renderer-process\scss" />
@@ -58,7 +67,9 @@
       <workItem from="1620502380284" duration="4030000" />
       <workItem from="1620812135858" duration="38000" />
       <workItem from="1621083948323" duration="8421000" />
-      <workItem from="1621322177710" duration="622000" />
+      <workItem from="1621322177710" duration="1075000" />
+      <workItem from="1621528169782" duration="5942000" />
+      <workItem from="1621778798908" duration="7823000" />
     </task>
     <servers />
   </component>

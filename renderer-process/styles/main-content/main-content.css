@@ -1,0 +1,10 @@
+.main-content {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 90vw;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=main-content.css.map */

@@ -1,8 +1,17 @@
 import { NewsArticle } from '../news-article/news-article.js';
 
-export class Carousel {
+export class Carousel extends HTMLElement {
 
     constructor(news) {
+        super();
+        this.innerHTML = `
+        <header class="header-news">
+            <div class="header-news__container"></div>
+            <button id="carousel-button-left">Left<i class="fas fa-chevron-left"></i></button>
+            <button id="carousel-button-right" class="last">Right<i class="fas fa-chevron-right"></i></button>
+        </header>
+        `;
+
         this.header = document.querySelector('div.header-news__container');
         this.articles = news;
         this.carouselItemStart = 0;
@@ -29,3 +38,5 @@ export class Carousel {
     }
 
 }
+
+customElements.define('app-carousel', Carousel);

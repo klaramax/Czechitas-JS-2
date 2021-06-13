@@ -1,4 +1,4 @@
-@import 'colors';
+@import '../colors';
 
 html {
   font-size: 62.5%;
@@ -37,16 +37,6 @@ body {
     justify-content: flex-start;
     background-color: rgb(165, 195, 219);
     position: relative;
-
-    .news-article {
-      background-size: cover;
-      min-height: 18rem;
-      flex: 1 0 0;
-
-      &__title {
-        color: $white;
-      }
-    }
   }
 
   & > button {
@@ -84,30 +74,4 @@ body {
   overflow: hidden;
   line-height: 2rem;
   padding: 1rem;
-}
-
-.main-content {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  gap: 1rem;
-  max-width: 90vw;
-  padding: 2rem;
-}
-
-.main-content__day {
-  display: flex;
-  width: calc(100% / 7 - 2rem);
-  aspect-ratio: 1/1;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(0, 0, 0, .3);
-  border-radius: .5rem;
-  cursor: pointer;
-  transition: .3s;
-  color: $black;
-}
-
-.main-content__day:hover {
-  background-color: rgba(0, 0, 0, .15);
 }
